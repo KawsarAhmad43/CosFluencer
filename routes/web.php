@@ -22,21 +22,21 @@ Route::get('/', function () {
     return view('admin.dashboard');
 });
 
-Route::get('/update', function () {
-    return view('admin.pages.user.profile.update');
-});
+
 
 Route::get('/pass', function () {
     return view('admin.pages.user.profile.security');
 });
 
-Route::get('/info', function () {
-    return view('admin.pages.user.profile.user-info');
-});
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/update', [AdminProfileController::class, 'profileForm'])->name('profileForm');
+Route::get('/info', [AdminProfileController::class, 'userInfo'])->name('profile');
+Route::get('/settings', [AdminProfileController::class, 'settingIndex'])->name('settings');
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

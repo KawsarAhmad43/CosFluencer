@@ -22,7 +22,7 @@
             <div class="card card-rounded table-darkBGImg">
                 <div class="card-body">
                     <div class="col-sm-8">
-                        <h3 class="text-white upgrade-info mb-0"> Manage <span class="fw-bold">User Permissions</span></h3>
+                        <h3 class="text-white upgrade-info mb-0"> General <span class="fw-bold">Account Settings</span></h3>
                     </div>
                 </div>
             </div>
@@ -31,6 +31,8 @@
 
 
     <div class="container">
+        <a class="btn btn-danger" href=""><< Back</a>
+
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">

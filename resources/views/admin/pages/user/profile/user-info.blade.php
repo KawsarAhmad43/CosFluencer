@@ -44,7 +44,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Enter your name" value="{{ $user->name}}">
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" value="">
                             </div>
                             <div class="form-group">
                                 <label for="contact">Contact</label>
@@ -52,7 +52,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter your email" value="{{ $user->email}}">
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" value="">
                             </div>
                             <div class="form-group">
                                 <label for="designation">Designation</label>

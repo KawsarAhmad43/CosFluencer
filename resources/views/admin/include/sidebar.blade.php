@@ -15,6 +15,13 @@
         </a>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('settings') }}">
+          <i class="menu-icon fa fa-gears"></i>
+          <span class="menu-title">Settings</span>
+        </a>
+      </li>
+
 
       <li class="nav-item">
         <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
